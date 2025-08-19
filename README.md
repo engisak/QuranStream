@@ -2,7 +2,7 @@
 
 **QuranStream** is an online MP3 Quran project featuring a complete recitation of the Holy Quran by **Sheikh Saud Al-Shuraim** in **Hafs 'an 'Asim** narration. Built with **JavaScript**, the site allows users to stream surahs easily and clearly.
 
-🌐 Live now at: [isak.quran.app](https://isak.quran.app)
+🌐 Live now at: [isak.quran.app](https://engisak-quran-stream.vercel.app)
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 🚀 How to Use
 
-1. Visit [isak.quran.app](https://isak.quran.app)
+1. Visit [isak.quran.app](https://engisak-quran-stream.vercel.app)
 2. Browse or search for any Surah
 3. Click the play button to start streaming
 
@@ -53,7 +53,7 @@ This project is open-source and provided for free Islamic educational use. No co
 - Recitation: Sheikh Saud Al-Shuraim
 - Audio Host: [mp3quran.net](https://mp3quran.net)
 - Developer: Isak
-- Website: [isak.quran.app](https://isak.quran.app)
+- Website: [isak.quran.app](https://engisak-quran-stream.vercel.app)
 
 > *May Allah accept this effort and make it beneficial to all.*
 
