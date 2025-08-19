@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.music-player {
+
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.song-info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.song-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.song-info p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #1db954;
+    width: 0%;
+    height: 100%;
+    transition: width 0.1s linear;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.control-btn:hover {
+    color: #1db954;
+}
+
+.play-btn {
+    font-size: 40px;
+}
+
+.additional-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.volume-container, .speed-container {
+    display: flex;
+    align-items: center;
+}
+
+.volume-container i, .speed-container i {
+    color: #666;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#volume {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 5px;
+    background: #e0e0e0;
+    outline: none;
+    border-radius: 5px;
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #1db954;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#volume::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #1db954;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+#speed {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#speed:focus {
+    outline: none;
+    border-color: #1db954;
+}
